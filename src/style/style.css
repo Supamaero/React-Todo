@@ -1,0 +1,21 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #9B9B9B;
+}
+
+@media only screen and (min-width: 600px) {
+  .containerStyle {
+    background-color: pink;
+    margin: 45px 183px;
+  }
+}
+
+.containerStyle {
+  background-color: #c4c4c4;
+  margin: 16px;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */

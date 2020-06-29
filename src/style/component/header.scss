@@ -1,0 +1,145 @@
+.first{
+    align-items:flex-end;
+    // background-color: red;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 23px;
+
+    .clockStyle{
+        font-size: 24px;
+    }
+
+    .activeTask{
+        font-size: 12px;
+    }
+}
+
+.incomplete{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.complete{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.second{
+    align-items:flex-end;
+    // background-color:blue;
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .taskLink{
+        color:#121212;
+        text-decoration: none;
+    }
+}
+
+
+.input_together{
+    // background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+
+    .inputStyle{
+        background-color:transparent;
+        border: 1px solid #000000;
+        border-radius: 2px;
+        padding: 0px 20px; 
+    }
+
+    .submmitButton{
+        background-color:#121212;
+        padding:8px 10px;
+        border-radius:2px;
+        color:#fafafa;
+        margin-left:12px;
+        border:none;
+        font-size:12px;
+        font-style:normal;
+        font-weight:normal;
+    }
+}
+
+.last{
+    // background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    margin-bottom: 12px;
+
+    .options{
+        font-size: 18px;
+    }
+
+    .eraseStyle{
+        background-color:#121212;
+        padding:8px 10px;
+        border-radius:2px;
+        color:#fafafa;
+        margin-left:12px;
+        border:none;
+        font-size:12px;
+        font-style:normal;
+        font-weight:normal;
+    }
+}
+
+
+
+@media (min-width: 600px){
+    .containerStyle{
+        background-color:#c4c4c4;
+        margin:45px 183px;
+        padding:46px 86px 66px 66px;
+    }
+
+    .main{
+        // background-color: red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .first{
+        align-items: flex-start;
+        // background-color: blue;
+        display: flex;
+        flex-direction: column; 
+
+        .clock{
+            margin-bottom: 13px;
+        }
+    }
+
+    .one{
+        // background-color: yellow;
+        margin-right:24px;
+    }
+
+    .input_together{
+        // background-color: green;
+        display: flex;
+        width:390px;
+    }
+
+    .inputStyle{
+        margin-right:12px;
+        width:308px;
+    }
+
+    .last{
+    // background-color: white;
+    margin-top: 21px;;
+    }
+
+}
+
+
+

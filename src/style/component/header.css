@@ -1,0 +1,95 @@
+.first {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 23px;
+}
+
+.first .clockStyle {
+  font-size: 24px;
+}
+
+.first .activeTask {
+  font-size: 12px;
+}
+
+.second {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.second .taskLink {
+  color: #121212;
+  text-decoration: none;
+}
+
+.input_together {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 23px;
+}
+
+.input_together .inputStyle {
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  padding: 0px 20px;
+}
+
+.input_together .submmitButton {
+  background-color: #121212;
+  padding: 8px 10px;
+  border-radius: 2px;
+  color: #fafafa;
+  margin-left: 12px;
+  border: none;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 26px;
+}
+
+.last .options {
+  font-size: 18px;
+}
+
+.last .eraseStyle {
+  background-color: #121212;
+  padding: 8px 10px;
+  border-radius: 2px;
+  color: #fafafa;
+  margin-left: 12px;
+  border: none;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+}
+/*# sourceMappingURL=header.css.map */
