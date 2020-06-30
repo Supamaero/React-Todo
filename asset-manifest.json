@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Supamaero/React-Todo.git/static/css/main.405f1586.chunk.css",
+    "main.js": "/Supamaero/React-Todo.git/static/js/main.03ee0c93.chunk.js",
+    "main.js.map": "/Supamaero/React-Todo.git/static/js/main.03ee0c93.chunk.js.map",
+    "runtime-main.js": "/Supamaero/React-Todo.git/static/js/runtime-main.37a0516e.js",
+    "runtime-main.js.map": "/Supamaero/React-Todo.git/static/js/runtime-main.37a0516e.js.map",
+    "static/js/2.230742e1.chunk.js": "/Supamaero/React-Todo.git/static/js/2.230742e1.chunk.js",
+    "static/js/2.230742e1.chunk.js.map": "/Supamaero/React-Todo.git/static/js/2.230742e1.chunk.js.map",
+    "index.html": "/Supamaero/React-Todo.git/index.html",
+    "precache-manifest.c3cf60e6b75a7a40571e48edde70c53d.js": "/Supamaero/React-Todo.git/precache-manifest.c3cf60e6b75a7a40571e48edde70c53d.js",
+    "service-worker.js": "/Supamaero/React-Todo.git/service-worker.js",
+    "static/css/main.405f1586.chunk.css.map": "/Supamaero/React-Todo.git/static/css/main.405f1586.chunk.css.map",
+    "static/js/2.230742e1.chunk.js.LICENSE.txt": "/Supamaero/React-Todo.git/static/js/2.230742e1.chunk.js.LICENSE.txt",
+    "static/media/home.svg": "/Supamaero/React-Todo.git/static/media/home.966e5d31.svg",
+    "static/media/trash.svg": "/Supamaero/React-Todo.git/static/media/trash.99d58fca.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37a0516e.js",
+    "static/js/2.230742e1.chunk.js",
+    "static/css/main.405f1586.chunk.css",
+    "static/js/main.03ee0c93.chunk.js"
+  ]
+}
