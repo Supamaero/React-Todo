@@ -6,9 +6,10 @@ import AddTodo from './addTodo';
 import Incomplete from './incomplete';
 import Completed from './completed';
 import DeleteAll from './deleteAll';
-import Error from "./error";
-import '../App.css';
+import ErrorComponent from "./error";
 import {v4 as uuid} from 'uuid';
+import 'normalize.css';
+import '../App.css';
 import "../style/style.scss";
 
 class Container extends React.Component{
@@ -87,8 +88,8 @@ AddTodo = (task) =>{
         <Switch>
           <div className="containerStyle">
                   <Route exact path="/" component={Header}/>
-                  <Route  path="/Complete" component={Completed} />
-                  <Route  path="/Incomplete" component={Incomplete} />
+                  <Route exact path="/Complete" component={Completed} />
+                  <Route exact path="/Incomplete" component={Incomplete} />
                   <div >
                       <Route exact path="/" render={props =>(
                           <React.Fragment>
@@ -99,7 +100,7 @@ AddTodo = (task) =>{
                           )} />
                   </div>
           </div>
-          <Route component ={Error} />   
+          <Route path="/Error" component ={ErrorComponent} />   
       </Switch>
    </Router>
       
