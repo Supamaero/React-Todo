@@ -8,7 +8,7 @@ class TodoItem extends React.Component {
         return {
             padding:"17px 14px",
             borderBottom:"1px solid black",
-            color: this.props.todo.completed ? '#121212':'green',
+            color: this.props.todo.completed ? 'green':'#91A5B2',
             display:"flex",
             alignItems:"center",
             justifyContent:"space-between",
@@ -19,7 +19,9 @@ class TodoItem extends React.Component {
     
 checkStyle={
     height:"24px",
-    width:"24px",      
+    width:"24px",  
+    backgroundColor:"#91A5B2",   
+    border:"none" 
 }
     
 delStyle = {

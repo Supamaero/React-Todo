@@ -32,33 +32,6 @@ class AddTodo extends React.Component {
         );
     }
 
-
-    // inputStyle={
-        // marginTop:"27px",
-        // width:"308px",
-        // border:"1px solid #000000",
-        // borderRadius:"2px",
-        // backgroundColor:"transparent",
-        // padding:"10px 0px",
-        // fontSize:"12px",
-        // fontStyle:"normal",
-        // fontWeight:"normal",
-        // paddingLeft: "32px",
-    // }
-
-   
-    // submitStyle ={
-    //     background:"#050505",
-    //     borderRadius:"2px",
-    //     color:"#fafafa",
-    //     marginLeft:"12px",
-    //     border:"none",
-    //     padding:"8px 10px",
-    //     fontSize:"12px",
-    //     fontStyle:"normal",
-    //     fontWeight:"normal"
-    // }
-
 }
 
 export default AddTodo;
